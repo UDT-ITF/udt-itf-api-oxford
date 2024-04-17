@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book type="EL" siglum="MOL-THE-2" id="MOL-THE-2" student="yes" demo="yes">
+    <module n="1" type="bibl"><Title sort="Theatre Complet B">Théâtre complet</Title>
+        <Volume>2</Volume>
+        
+        <Type>Drama Collection</Type>
+        <Author sort="Molière"><firstname/> <lastname>Molière</lastname></Author>
+        <Place>Paris</Place>
+        <Publisher>Bibliothèque Hachette</Publisher>
+        <Date>n.d.</Date>
+        <Edition/>
+        <GeneralNote><lb/>- volume III is missing; <lb/>- marginalia: volume 2: from La Princesse d'Élide: 206-207 / 212 / 234; from Tartuffe: 257-9 / 268 / 314-5</GeneralNote>
+        <UncutPages>no</UncutPages>
+        <Term n="1925-4">October 1926 (La Princesse d'Élide, Les Amants magnifiques, La Comtesse d'Escarbagnas)</Term>
+        <Term n="1926-4">October 1927 (Les Fourberies de Scapin, Tartuffe)</Term>
+        <Source/>
+        <Comment>Volumes II, IV and V bear the inscription "July 1926" indicating that he used the volumes for the Michaelmas examination in October 1926 which lists three plays by Molière.</Comment>
+    </module>
+    <module n="2" type="prop">
+        <Type>received</Type>
+        <DateOfAcquisition/>
+        <Origin/>
+        <Dedication>S. B. Beckett / July 1926</Dedication>
+    </module>
+    <module n="4" type="readtraces">
+        <page>
+            <Pagenumber>206</Pagenumber>
+            <Dimensions><width>680</width><height>1055</height></Dimensions>
+            <zone>
+                <Type>marginalia</Type>
+                <Number>1</Number>
+                <Coordinates><one>82</one><two>824</two><three>662</three><four>908</four></Coordinates>
+                <PlaceOnThePage>d</PlaceOnThePage>
+                <rn><Transcription><u>bien que mon sort touche à ses derniers soleils</u> <lb/><lb/> <m>cf.<lb/> Racine's<lb/> <u>Phèdre</u></m></Transcription>
+                    <Handwriting>SB</Handwriting>
+                    <WritingTool>Black Ink</WritingTool>
+                    <Extracts>Et bien que mon sort touche à ses derniers soleils, / Je dirai que l'amour sied bien à vos pareils,</Extracts></rn>
+            </zone>
+        </page>
+        <page>
+            <Pagenumber>207</Pagenumber>
+            <Dimensions><width>680</width><height>1052</height></Dimensions>
+            <zone>
+                <Type>marginalia</Type>
+                <Number>1</Number>
+                <Coordinates><one>38</one><two>524</two><three>614</three><four>588</four></Coordinates>
+                <PlaceOnThePage>c</PlaceOnThePage>
+                <rn><Transcription><u>sachant</u> / <m>Quand<lb/> vous<lb/> saurez</m> </Transcription>
+                    <Handwriting>SB</Handwriting>
+                    <WritingTool>Black Ink</WritingTool>
+                    <Extracts>Et sachant dans quels maux mon cœur s'est abîmé, / Toi-même tu voudrais qu'il n'eût jamais aimé.</Extracts></rn>
+            </zone>
+            <zone>
+                <Type>marginalia</Type>
+                <Number>2</Number>
+                <Coordinates><one>36</one><two>797</two><three>596</three><four>854</four></Coordinates>
+                <PlaceOnThePage>d</PlaceOnThePage>
+                <rn><Transcription><u>ce passage offrit la Princesse à mes yeux;</u> / <m>What a  line!</m></Transcription>
+                    <Handwriting>SB</Handwriting>
+                    <WritingTool>Black Ink</WritingTool>
+                    <Extracts>A mon retour d'Argos, je passai dans ces lieux, / Et ce passage offrit la Princesse à mes yeux;</Extracts></rn>
+            </zone>
+        </page>
+        <page>
+            <Pagenumber>212</Pagenumber>
+            <Dimensions><width>680</width><height>1058</height></Dimensions>
+            <zone>
+                <Type>marginalia</Type>
+                <Number>1</Number>
+                <Coordinates><one>65</one><two>544</two><three>640</three><four>617</four></Coordinates>
+                <PlaceOnThePage>c</PlaceOnThePage>
+                <rn><Transcription><u>Il n'est pas généreux, mais il est de bon sens.</u> / <m><unclear>Wit. of Molière</unclear></m></Transcription>
+                    <Handwriting>SB</Handwriting>
+                    <WritingTool>Grey Pencil</WritingTool>
+                    <Extracts>J'y consens: / Il n'est pas généreux, mais il est de bon sens.</Extracts></rn>
+            </zone>
+        </page>
+        <page>
+            <Pagenumber>234</Pagenumber>
+            <Dimensions><width>680</width><height>975</height></Dimensions>
+            <zone>
+                <Number>1</Number>
+                <Coordinates><one>109</one><two>460</two><three>620</three><four>557</four></Coordinates>
+                <PlaceOnThePage>c</PlaceOnThePage>
+                <rn><Transcription><u>de qui</u></Transcription>
+                    <Handwriting>SB</Handwriting>
+                    <WritingTool>Black Ink</WritingTool>
+                    <Extracts>Je suis / sûre que vous allez approuver mon choix; et pour ne vous / point tenir en suspens davantage, le prince de Messène est celui / de qui le mérite s'est attiré mes vœux.</Extracts></rn>
+            </zone>
+        </page>
+        <page>
+            <Pagenumber>257</Pagenumber>
+            <Dimensions><width>680</width><height>1039</height></Dimensions>
+            <zone>
+                <Type>marginalia</Type>
+                <Number>1</Number>
+                <Coordinates><one>26</one><two>553</two><three>509</three><four>702</four></Coordinates>
+                <PlaceOnThePage>c</PlaceOnThePage>
+                <rn><Transcription><m>ARTICLE OF FAITH FOR M.</m></Transcription>
+                    <Handwriting>SB</Handwriting>
+                    <WritingTool>Blue Ink</WritingTool>
+                    <Extracts>Les hommes la plupart sont étrangement faits! / Dans la juste nature on ne les voit jamais; / La raison a pour eux des bornes trop petites; / En chaque caractère ils passent ses limites; / Et la plus noble chose, ils la gâtent souvent / Pour la vouloir outrer et pousser trop avant.</Extracts></rn>
+            </zone>
+        </page>
+        <page>
+            <Pagenumber>258</Pagenumber>
+            <Dimensions><width>680</width><height>1046</height></Dimensions>
+            <zone>
+                <Number>1</Number>
+                <Coordinates><one>108</one><two>98</two><three>586</three><four>182</four></Coordinates>
+                <PlaceOnThePage>a</PlaceOnThePage>
+                <rn><Transcription search="no">Qui soient [...] zèle,</Transcription>
+                    <Handwriting>SB</Handwriting>
+                    <WritingTool>Blue Ink</WritingTool>
+                    <Extracts>Qui soient plus à priser que les parfaits dévots, / Aucune chose au monde et plus noble et plus belle / Que la sainte ferveur d'un véritable zèle,</Extracts></rn>
+            </zone>
+            <zone rotate="CW">
+                <Type>marginalia</Type>
+                <Number>2</Number>
+                <Coordinates><one>77</one><two>604</two><three>131</three><four>974</four></Coordinates>
+                <PlaceOnThePage>a</PlaceOnThePage>
+                <rn><Transcription><m>M. SYMPATHISES WITH TRUE RELIGION</m> </Transcription>
+                    <Handwriting>SB</Handwriting>
+                    <WritingTool>Blue Ink</WritingTool>
+                    <Extracts/> 
+                </rn>
+            </zone>
+            <zone>
+                <Number>3</Number>
+                <Coordinates><one>126</one><two>778</two><three>532</three><four>813</four></Coordinates>
+                <PlaceOnThePage>a</PlaceOnThePage>
+                <rn><Transcription><u>Et leur dévotion est humaine, est traitable</u></Transcription>
+                    <Handwriting>SB</Handwriting>
+                    <WritingTool>Blue Ink</WritingTool>
+                    <Extracts>Mais les dévots de cœur sont aisés à connaître. / Notre siècle, mon frère, en expose à nos yeux / Qui peuvent nous servir d'exemples glorieux: / Regardez Ariston, regardez Périandre, / Oronte, Alcidamas, Polydore, Clitandre; / Ce titre par aucun ne leur est débattu; / Ce ne sont point du tout fanfarons de vertu; / On ne voit point en eux ce faste insupportable, / Et leur dévotion est humaine, est traitable; / Ils ne censurent point toutes nos actions: / Ils trouvent trop d'orgueil dans ces corrections; / Et laissant la fierté des paroles aux autres, / C'est par leurs actions qu'ils reprennent les nôtres. / L'apparence du mal a chez eux peu d'appui, / Et leur âme est portée à juger bien d'autrui. / Point de cabale en eux, point d'intrigues à suivre; / On les voit, pour tous soins, se mêler de bien vivre;</Extracts></rn>
+            </zone>
+        </page>
+        <page>
+            <Pagenumber>259</Pagenumber>
+            <Dimensions><width>680</width><height>1060</height></Dimensions>
+            <zone>
+                <Number>1</Number>
+                <Coordinates><one>8</one><two>90</two><three>484</three><four>288</four></Coordinates>
+                <PlaceOnThePage>a</PlaceOnThePage>
+                <rn><Transcription><u>Et ne veulent point prendre, avec un zèle extrême,<lb/> Les intérêts du Ciel plus qu'il ne veut lui-même.</u></Transcription>
+                    <Handwriting>SB</Handwriting>
+                    <WritingTool>Blue Ink</WritingTool>
+                    <Extracts>Jamais contre un pécheur ils n'ont d'acharnement ; / Ils attachent leur haine au péché seulement / Et ne veulent point prendre, avec un zèle extrême, / Les intérêts du Ciel plus qu'il ne veut lui-même. / Voilà mes gens, voilà comme il en faut user, / Voilà l'exemple enfin qu'il se faut proposer. / Votre homme, à dire vrai, n'est pas de ce modèle: / C'est de fort bonne foi que vous vantez son zèle; / Mais par un faux éclat je vous crois ébloui.</Extracts></rn>
+            </zone>
+        </page>
+        <page>
+            <Pagenumber>268</Pagenumber>
+            <Dimensions><width>680</width><height>1006</height></Dimensions>
+            <zone rotate="CW">
+                <Type>marginalia</Type>
+                <Number>1</Number>
+                <Coordinates><one>61</one><two>561</two><three>101</three><four>776</four></Coordinates>
+                <PlaceOnThePage>a</PlaceOnThePage>
+                <rn><Transcription><m>ANTI-CORNELIANISM.</m></Transcription>
+                    <Handwriting>SB</Handwriting>
+                    <WritingTool>Blue Ink</WritingTool>
+                    <Extracts/> 
+                </rn>
+            </zone>
+            <zone>
+                <Number>2</Number>
+                <Coordinates><one>100</one><two>646</two><three>533</three><four>736</four></Coordinates>
+                <PlaceOnThePage>a</PlaceOnThePage>
+                <rn><Transcription search="no">Fort bien :  c'est [...] ces sortes de langage.</Transcription>
+                    <Handwriting>SB</Handwriting>
+                    <WritingTool>Blue Ink</WritingTool>
+                    <Extracts>Fort bien :  c'est un recours où je ne songeais pas / Vous n'avez qu'à mourir pour sortir d'embarras ; / Le remède sans doute est merveilleux. J'enrage / Lorsque j'entends tenir ces sortes de langage.</Extracts></rn>
+            </zone>
+        </page>
+        <page>
+            <Pagenumber>314</Pagenumber>
+            <Dimensions><width>680</width><height>1063</height></Dimensions>
+            <zone>
+                <Type>marginalia</Type>
+                <Number>1</Number>
+                <Coordinates><one>86</one><two>726</two><three>660</three><four>980</four></Coordinates>
+                <PlaceOnThePage>a</PlaceOnThePage>
+                <rn><Transcription><m>!! Who's a hypocrite?</m><lb/> <u>Chez elle jamais rien ne surprend trop d'accès,<lb/> Et sa ferme raison ne tombe en nul excès.</u></Transcription>
+                    <Handwriting>SB</Handwriting>
+                    <WritingTool>Blue Ink</WritingTool>
+                    <Extracts>Remettez-vous, Monsieur, d'une alarme si chaude. / Nous vivons sous un prince ennemi de la fraude, / Un prince dont les yeux se font jour dans les cœurs, / Et que ne peut tromper tout l'art des imposteurs / D'un fin discernement sa grande âme pourvue / Sur les choses toujours jette une droite vue ; / Chez elle jamais rien ne surprend trop d'accès, / Et sa ferme raison ne tombe en nul excès. / Il donne aux gens de bien une gloire immortelle ; / Mais sans aveuglement il fait briller ce zèle, / Et l'amour pour les vrais ne ferme point son cœur / A tout ce que les faux doivent donner d'horreur.</Extracts></rn>
+            </zone>
+        </page>
+        <page>
+            <Pagenumber>315</Pagenumber>
+            <Dimensions><width>680</width><height>1065</height></Dimensions>
+            <zone rotate="CW">
+                <Type>marginalia</Type>
+                <Number>1</Number>
+                <Coordinates><one>493</one><two>330</two><three>568</three><four>686</four></Coordinates>
+                <PlaceOnThePage>a</PlaceOnThePage>
+                <rn><Transcription><m>Molière the lick-spittle</m></Transcription>
+                    <Handwriting>SB</Handwriting>
+                    <WritingTool>Blue Ink</WritingTool>
+                    <Extracts>Celui-ci n'était pas pour le pouvoir surprendre. /
+                        Et de pièges plus fins on le voit se défendre. /
+                        D'abord il a percé, par ses vives clartés. /
+                        Des replis de son cœur toutes les lâchetés,  /
+                        Venant vous accuser, il s'est trahi lui-même, /
+                        Et par un juste trait de l'équité suprême,  /
+                        S'est découvert au Prince un fourbe renommé. /
+                        Dont sous un autre nom il était informé ; /
+                        Et c'est un long détail d'actions toutes noires / Dont on pourrait former des volumes d'histoires. /
+                        Ce monarque, en un mot, à vers vous détesté  /
+                        Sa lâche ingratitude et sa déloyauté ; /
+                        A ses autres horreurs il a joint cette suite, /
+                        Et ne m'a jusqu'ici soumis à sa conduite  /
+                        Que pour voir l'impudence aller jusques au bout, / Et vous faire par lui faire raison de tout. /
+                        Oui, de tous vos papiers, dont il se dit le maître. /
+                        Il veut qu'entre vos mains je dépouille le traître. /
+                        D'un souverain pouvoir, il brise les liens /
+                        Du contrat qui lui fait un don de tous vos biens, / Et vous pardonne enfin cette offense secrète  /
+                        Où vous a d'un ami fait tomber la retraite ;  /
+                        Et c'est le prix qu'il donne au zèle qu'autrefois / On vous vit témoigner en appuyant ses droits,  /
+                        Pour montrer que son cœur sait, quand moins on y pense, /
+                        D'une bonne action verser la récompense,  /
+                        Que jamais le mérite avec lui ne perd rien, / Et que mieux que du mal il se souvient du bien.</Extracts></rn>
+            </zone>
+        </page>
+    </module>
+    <images>
+        <image n="0">MOL-THE-2,cover</image>
+        <image n="1">MOL-THE-2,inscription</image>
+        <image n="3">MOL-THE-2,206</image>
+        <image n="4">MOL-THE-2,207</image>
+        <image n="5">MOL-THE-2,212</image>
+        <image n="6">MOL-THE-2,234</image>
+        <image n="7">MOL-THE-2,257</image>
+        <image n="8">MOL-THE-2,258</image>
+        <image n="9">MOL-THE-2,259</image>
+        <image n="10">MOL-THE-2,268</image>
+        <image n="11">MOL-THE-2,314</image>
+        <image n="12">MOL-THE-2,315</image>
+    </images>
+</book>
+
