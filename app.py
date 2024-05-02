@@ -93,7 +93,7 @@ def text_info_api(prefix, identifier, version, info):
             data = {
                     "identifier": identifier, 
                     "versioning": version, 
-                    "modes": ["char", "token", "book"], 
+                    "modes": ["char", "token"], 
                     "qualities": ["raw", "compact"], 
                     "formats": [ "txt", "tei", "html", "md" ]
                     }
