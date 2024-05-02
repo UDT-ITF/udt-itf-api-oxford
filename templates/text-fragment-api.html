@@ -1,0 +1,117 @@
+<div id="divInfo" class="d-none">
+    <h3 class="mt-3">
+        Text Fragment API
+    </h3>
+    <p>This section describes an API for the delivery of texts and text fragments via a
+        standard HTTP request. The ITF Text Fragment API specifies a web service that returns textual
+        data in response to a standard HTTP or HTTPS request. The URL can specify:</p>
+    <ul>
+        <li>The version of the underlying source text to be accessed</li>
+        <li>The mode used to specify a text fragment</li>
+        <li>The text fragment to be returned</li>
+        <li>Whether to include any enrichments, such as formatting</li>
+        <li>The format in which to return the text data</li>
+    </ul>
+</div>
+
+<p class="m-0">The ITF Text API URL for requesting a text fragment MUST conform to the following
+    format:
+</p>
+<div class="highlight">
+    <pre
+        class="highlight m-0"><code>http[s]://server/[prefix/]identifier/version/mode/fragment/quality[.format]</code></pre>
+</div>
+<div class="row api mt-1">
+    <div class="col-xl-3 col-lg-4 col-md-4 col-sm-4 col-4">
+        <div class="input-group mb-3">
+            <label class="input-group-text" for="selScheme">scheme</label>
+            <select class="form-select" id="selScheme">
+                <option value="http" selected>http</option>
+                <option value="https">https</option>
+            </select>
+            <span class="input-group-text">://</span>
+        </div>
+    </div>
+    <div class="col-xl-3 col-lg-4 col-md-4 col-sm-4 col-4">
+        <div class="input-group mb-3">
+            <label class="input-group-text" for="txtServer">server</label>
+            <input type="text" class="form-control" id="txtServer">
+            <span class="input-group-text">/</span>
+        </div>
+    </div>
+    <div class="col-xl-3 col-lg-4 col-md-4 col-sm-4 col-4">
+        <div class="input-group mb-3">
+            <label class="input-group-text" for="selPrefix">prefix</label>
+            <select class="form-select" id="selPrefix">
+                <option value="text-service" selected>text-service</option>
+            </select>
+            <span class="input-group-text">/</span>
+        </div>
+    </div>
+    <div class="col-xl-3 col-lg-4 col-md-4 col-sm-4 col-4">
+        <div class="input-group mb-3">
+            <label class="input-group-text" for="txtIdentifier">identifier</label>
+            <input type="text" class="form-control" id="txtIdentifier" placeholder="filename..." value="MOL-THE-2">
+            <span class="input-group-text">/</span>
+        </div>
+    </div>
+    <div class="col-xl-3 col-lg-4 col-md-4 col-sm-4 col-4">
+        <div class="input-group mb-3">
+            <label class="input-group-text" for="txtVersion">version</label>
+            <input type="text" class="form-control" id="txtVersion" value="default" disabled>
+            <span class="input-group-text">/</span>
+        </div>
+    </div>
+    <div class="col-xl-3 col-lg-4 col-md-4 col-sm-4 col-4">
+        <div class="input-group mb-3">
+            <label class="input-group-text" for="selMode">mode</label>
+            <select class="form-select" id="selMode">
+                
+            </select>
+            <span class="input-group-text">/</span>
+        </div>
+    </div>
+    <div class="col-xl-3 col-lg-4 col-md-4 col-sm-4 col-4">
+        <div class="input-group mb-3">
+            <label class="input-group-text" for="txtFragment">fragment</label>
+            <input type="text" class="form-control" id="txtFragment" placeholder="x,y or ,y or x+n or x" value="1,100">
+            <span class="input-group-text">/</span>
+        </div>
+    </div>
+    <div class="col-xl-3 col-lg-4 col-md-4 col-sm-4 col-4">
+        <div class="input-group mb-3">
+            <label class="input-group-text" for="selQuality">quality</label>
+            <select class="form-select" id="selQuality">
+                
+            </select>
+            <span class="input-group-text">/</span>
+        </div>
+    </div>
+    <div class="col-xl-3 col-lg-4 col-md-4 col-sm-4 col-4">
+        <div class="input-group mb-3">
+            <label class="input-group-text" for="selFormat">format</label>
+            <select class="form-select" id="selFormat">
+               
+            </select>
+            <span class="input-group-text">/</span>
+        </div>
+    </div>
+</div>
+<div id="divActualAPIURL">
+    <pre
+        class="m-0">Actual URL: <code>http[s]://server/[prefix/]identifier/version/mode/fragment/quality[.format]</code></pre>
+</div>
+<textarea class="textarea fs-6 p-2 border-0 loading" readonly></textarea>
+
+<div class="info-counters text-center mt-4 ">
+    <span class="text-uppercase">Characters <span class="badge text-bg-secondary spChar">0</span></span>
+    <span class="ms-2 text-uppercase">words <span class="badge text-bg-secondary spWord">0</span></span>
+    <span class="ms-2 text-uppercase">sentences <span class="badge text-bg-secondary" id="spSent">0</span>
+    </span>
+    <span class="ms-2 text-uppercase">paragraphs <span class="badge text-bg-secondary" id="spPara">0</span>
+    </span>
+    <span class="ms-2 text-uppercase">spaces <span class="badge text-bg-secondary" id="spSpaces">0</span>
+    </span>
+</div>
+
+<!-- <script type="module" src="{{ url_for('static', filename='js/text-fragment-api.js') }}"></script> -->

@@ -1,0 +1,129 @@
+body,
+html {
+    font-family: "Oswald", sans-serif;
+    /* overflow-x: hidden !important; */
+    left: 0;
+    overflow: hidden !important;
+}
+
+.side-bar {
+    background-image: linear-gradient(to bottom, rgba(0, 25, 39, 0.68), rgba(0, 25, 39, 0.68));
+    background-color: #023436;
+    color: #fff;
+    position: relative;
+    top: 0;
+    height: 100vh;
+}
+
+/* @media all and (min-width:0px) and (max-width:1149px) {
+    .side-bar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .side-bar .word-density {
+        overflow: hidden !important;
+    }
+    .body, html{
+        overflow: auto !important;
+    }
+} */
+
+.side-bar .word-density {
+    background-color: #edf0f0;
+    padding: 5%;
+    height: calc(100% - 169px);
+    overflow-y: auto;
+    color: #023436;
+    font-size: 14px;
+    position: absolute;
+    width: 100%;
+}
+
+#keywordDensityList {
+    padding: 0;
+    text-align: center;
+    color: #fff;
+}
+
+#keywordDensityList li {
+    display: inline-block;
+    list-style-type: none;
+    background-image: linear-gradient(to bottom, rgba(0, 25, 39, 0.68), rgba(0, 25, 39, 0.68));
+    background-color: #023436;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin: 0 10px 10px 0;
+    width: 100%;
+    text-align: left;
+    overflow: hidden;
+}
+
+#keywordDensityList li .word-text {
+    display: inline-block;
+    padding: 9px 5px 10px 15px;
+    float: left;
+}
+
+#keywordDensityList li .word-count {
+    display: inline-block;
+    background-image: linear-gradient(to bottom, rgba(0, 25, 39, 0.68), rgba(0, 25, 39, 0.68));
+    background-color: #04989e;
+    padding: 10px;
+    font-weight: 700;
+    float: right;
+    width: 60px;
+}
+
+#keywordDensityList li .word-percent {
+    display: inline-block;
+    padding: 9px 15px 10px 5px;
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.text-api {
+    /* background-image: linear-gradient(to bottom, rgba(0, 25, 39, 0.68), rgba(0, 25, 39, 0.68));
+    background-color: #023436; */
+    background-color: #edf0f0;
+    color: #023436;
+    height: 100vh;
+    overflow-x: auto;
+}
+
+.textarea {
+    font-size: 22px;
+    background-color: #fff !important;
+    width: 100% !important;
+    height: 57vh;
+    overflow: auto;
+
+    border: none;
+    overflow: auto;
+    outline: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+    resize: none; /*remove the resize handle on the bottom right*/
+}
+
+.api {
+    width: 100%;
+}
+
+.info-box {
+    background: transparent url('/static/images/bg.png') repeat scroll 0 0;
+    overflow-x: auto;
+    height: 100vh;
+}
+
+.loading{
+    background: url('/static/images/loading.gif') no-repeat center;
+    background-size: 20%;
+}

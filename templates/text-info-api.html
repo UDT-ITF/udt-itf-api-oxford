@@ -1,0 +1,77 @@
+<div id="divInfo" class="d-none">
+    <h3 class="mt-3">
+        Text Information API
+    </h3>
+    <p> This section describes an API to request technical information about text Resources and Versions via a standard
+        HTTP request. The ITF Text Information API specifies a web service that returns JSON data in response to a
+        standard HTTP or HTTPS request. The URL can specify:</p>
+    <ul>
+        <li>The Resource or Version that is the target of the request</li>
+        <li>The type of information that is requested</li>
+    </ul>
+</div>
+<p class="m-0">The ITF API URL for requesting information about a text resource MUST conform to the following format:
+</p>
+<div class="highlight">
+    <pre class="highlight m-0"><code>http[s]://server/[prefix/]identifier/[version/]info.json</code></pre>
+</div>
+<div class="row api mt-1">
+    <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+        <div class="input-group mb-3">
+            <label class="input-group-text" for="selScheme">scheme</label>
+            <select class="form-select" id="selScheme">
+                <option value="http" selected>http</option>
+                <option value="https">https</option>
+            </select>
+            <span class="input-group-text">://</span>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+        <div class="input-group mb-3">
+            <label class="input-group-text" for="txtServer">server</label>
+            <input type="text" class="form-control" id="txtServer">
+            <span class="input-group-text">/</span>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+        <div class="input-group mb-3">
+            <label class="input-group-text" for="selPrefix">prefix</label>
+            <select class="form-select" id="selPrefix">
+                <option value="text-service" selected>text-service</option>
+            </select>
+            <span class="input-group-text">/</span>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+        <div class="input-group mb-3">
+            <label class="input-group-text" for="txtIdentifier">identifier</label>
+            <input type="text" class="form-control" id="txtIdentifier" placeholder="filename..." value="MOL-THE-2">
+            <span class="input-group-text">/</span>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+        <div class="input-group mb-3">
+            <label class="input-group-text" for="txtVersion">version</label>
+            <input type="text" class="form-control" id="txtVersion" value="default" disabled>
+            <span class="input-group-text">/</span>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+        <div class="input-group mb-3">
+            <label class="input-group-text" for="selInfo">info</label>
+            <select class="form-select" id="selInfo">
+                <option value="textinfo" selected>textinfo</option>
+                <option value="versions">versions</option>
+                <option value="modes">modes</option>
+            </select>
+            <span class="input-group-text">/</span>
+        </div>
+    </div>
+</div>
+<div id="divActualAPIURL">
+    <pre
+        class="m-0">Actual URL: <code>http[s]://server/[prefix/]identifier/version/mode/fragment/quality[.format]</code></pre>
+</div>
+<pre id="json-display" class="bg-white mt-1 p-3 overflow-auto" style="height: 72vh;">
+
+</pre>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        UDT-ITF API 0.1 — UDT-ITF | Unlocking Digital Texts
+    </title>
+    <meta name="description"
+        content="Unlocking Digital Texts (UDT) aims to lay the foundation for the creation of the Interoperable Text Framework (ITF). Just as the International Image Interoperability Framework (IIIF) enables users to present, annotate and reuse digital images easily without having to worry about the underlying infrastructure, ITF will empower users to create a richer and more layered approach to the presentation, analysis and reuse of textual resources.">
+    <meta name="keywords" content="api, text, digital, itf">
+    <meta property="og:title" content="UDT-ITF API 0.1 —  UDT-ITF | Unlocking Digital Texts">
+    <meta property="og:description"
+        content="Unlocking Digital Texts (UDT) aims to lay the foundation for the creation of the Interoperable Text Framework (ITF). Just as the International Image Interoperability Framework (IIIF) enables users to present, annotate and reuse digital images easily without having to worry about the underlying infrastructure, ITF will empower users to create a richer and more layered approach to the presentation, analysis and reuse of textual resources.">
+    <meta property="og:site_name" content="ITF APIs and Community Site">
+    <meta property="og:url" content="https://textframe.io/api/">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
+    
+    <link href="https://www.jqueryscript.net/demo/jQuery-Plugin-For-Easily-Readable-JSON-Data-Viewer/json-viewer/jquery.json-viewer.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 col-sm-12 col-12 side-bar p-0 border border-end border-2 border-light">
+                <h4 class="mt-3 ms-2">UDT-ITF API 0.1 — UDT-ITF Unlocking Digital Texts</h4>
+                <div class="mt-3 ms-2 mb-5">
+                    <button class="btn btn-sm btn-light">
+                        <i class="fa fa-solid fa-bars"></i> Menu
+                    </button>
+                </div>
+
+                <div class="word-density">
+                    <h6 class="fw-bold ms-2 mt-3 text-center">Word Density</h6>
+                    <ul id="keywordDensityList">
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-7 col-sm-12 col-12 text-api">
+                <h4 class="mt-2">
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" id="switchAPIs" checked>
+                        <label class="form-check-label mt-1" for="switchAPIs" id="lblAPIName">Text Fragment API
+                            Playground</label>
+                    </div>
+                </h4>
+                <div id="textAPIs">
+                    
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-12 col-12 info-box">
+                <h3 class="mt-3">
+                    Text Fragment API
+                </h3>
+                <p>This section describes an API for the delivery of texts and text fragments via a
+                    standard HTTP request. The ITF Text Fragment API specifies a web service that returns textual
+                    data in response to a standard HTTP or HTTPS request. The URL can specify:</p>
+                <ul>
+                    <li>The version of the underlying source text to be accessed</li>
+                    <li>The mode used to specify a text fragment</li>
+                    <li>The text fragment to be returned</li>
+                    <li>Whether to include any enrichments, such as formatting</li>
+                    <li>The format in which to return the text data</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- <script type="module">
+        import { franc, francAll } from 'https://esm.sh/franc@6?bundle'
+    </script> -->
+
+    <script src="https://www.jqueryscript.net/demo/jQuery-Plugin-For-Easily-Readable-JSON-Data-Viewer/json-viewer/jquery.json-viewer.js"></script>
+    <script src="{{ url_for('static', filename='js/language.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+   
+</body>
+
+</html>
