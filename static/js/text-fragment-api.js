@@ -2,7 +2,8 @@ import { franc, francAll } from 'https://esm.sh/franc@6?bundle';
 
 // Set by default value of server
 const full = location.host;
-$('#txtServer').val(full)
+$('#txtServer').val(full);
+$('#selScheme').val(location.protocol.split(':'));
 
 async function setInputs(infoAPIURL) {
     let response = await fetch(infoAPIURL);

@@ -1,6 +1,7 @@
 // Set by default value of server
 const full = location.host;
 $('#txtServer').val(full)
+$('#selScheme').val(location.protocol.split(':'));
 
 async function fetchInput() {
     let scheme = $('#selScheme').val()
