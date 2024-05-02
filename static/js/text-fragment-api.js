@@ -46,17 +46,18 @@ async function fetchInput() {
     let version = $('#txtVersion').val()
     let fragment = $('#txtFragment').val()
 
-    // let infoAPIURL = `${scheme}://${server}/${prefix}/${identifier}/${version}/textinfo.json`
-    // await setInputs(infoAPIURL);
-
     let mode = $('#selMode').val()
     let quality = $('#selQuality').val()
     let format = $('#selFormat').val()
 
-    let url = `${scheme}://${server}/${prefix}/${identifier}/${version}/${mode}/${fragment}/${quality}.${format}`
-    $('#divActualAPIURL').html(`<pre
-    class="m-0">Requested URL: <code>${url}</code></pre>`)
 
+
+    let print_url = `${scheme}://${server}/${prefix}/${identifier}/${version}/${mode}/${fragment}/${quality}.${format}`
+    $('#divActualAPIURL').html(`<pre
+    class="m-0">Requested URL: <code>${print_url}</code></pre>`)
+
+    let url = `${scheme}://${server}/${prefix}/${identifier}/${version}/${mode}/${fragment}/${quality}.${format === 'tei' ? 'xml' : format}`
+    
     let resp = await callAPI(url)
     if (!resp.toLowerCase().includes('text fragment api error') && !resp.toLocaleLowerCase().includes('typeerror: ')) {
         if (format === 'txt') {
