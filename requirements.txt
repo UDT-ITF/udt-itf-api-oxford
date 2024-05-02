@@ -34,6 +34,7 @@ executing==1.2.0
 fastjsonschema==2.16.2
 feedparser==6.0.10
 Flask==3.0.3
+Gunicorn
 fqdn==1.5.1
 idna==3.4
 ipykernel==6.19.2
