@@ -57,7 +57,7 @@ async function fetchInput() {
     class="m-0">Requested URL: <code>${url}</code></pre>`)
 
     let resp = await callAPI(url)
-    if (!resp.toLowerCase().includes('text fragment api error')) {
+    if (!resp.toLowerCase().includes('text fragment api error') && !resp.toLocaleLowerCase().includes('typeerror: ')) {
         if (format === 'txt') {
             $('.info-counters').show()
             $('.word-density').show()
