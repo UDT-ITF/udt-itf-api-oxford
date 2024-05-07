@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify, Response, render_template, send_from_directory
 import xml.etree.ElementTree as ET
 # import required modules
-from bs4 import BeautifulSoup
+#from bs4 import BeautifulSoup
 import xml.dom.minidom
 import os
 import fitz
