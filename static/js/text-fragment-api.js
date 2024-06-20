@@ -4,6 +4,7 @@ import { franc, francAll } from 'https://esm.sh/franc@6?bundle';
 const full = location.host;
 $('#txtServer').val(full);
 $('#selScheme').val(location.protocol.split(':'));
+var globalIdentifier = 'MOL-THE-2'
 
 async function setInputs(infoAPIURL) {
     let response = await fetch(infoAPIURL);
@@ -38,6 +39,8 @@ async function setInputs(infoAPIURL) {
 
 async function fetchInput() {
     $('.textarea').val('')
+    $('.info-counters').hide()
+    $('.word-density').hide()
     $('.textarea').addClass('loading')
     let scheme = $('#selScheme').val()
     let server = $('#txtServer').val()
@@ -60,7 +63,7 @@ async function fetchInput() {
     
     let resp = await callAPI(url)
     if (!resp.toLowerCase().includes('text fragment api error') && !resp.toLocaleLowerCase().includes('typeerror: ')) {
-        if (format === 'txt') {
+        if (format === 'txt' && quality !== 'raw') {
             $('.info-counters').show()
             $('.word-density').show()
             $('.textarea').val(resp)
@@ -233,8 +236,13 @@ function keywordDensity(text, langCode) {
     }
 }
 
-$('input[type="text"], select').on('input', e => {
-    fetchInput();
+$('input[type="text"], select').on('input', async e => {
+    if($('#txtIdentifier').val() !== globalIdentifier){
+        await callAPIOnLoad();
+    }
+    else{
+        await fetchInput();
+    }
 })
 
 
